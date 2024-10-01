@@ -85,14 +85,17 @@
   }
 
   .logo {
-    display: flex;
-    margin-left: 45px;
+    margin-left: 30px;
+    margin-top: 5px;
   }
 
   .logo-image {
-    margin-right: 5px;
     margin-top: 15px;
-    font-size: 20px;
+    width: 120px;
+  }
+
+  .icon-logo {
+    display: none;
   }
 
   .logo-item {
@@ -107,7 +110,7 @@
 
   .control {
     display: flex;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 25px;
   }
 
@@ -118,6 +121,10 @@
 
   .home-page {
     width: 30px;
+  }
+
+  .playlist {
+    display: inline;
   }
 }
 
@@ -130,12 +137,12 @@
 
   .logo {
     display: flex;
-    margin-left: 85px;
+    margin-left: 30px;
   }
 
   .control {
     display: flex;
-    margin-left: 60px;
+    margin-left: 10px;
     margin-top: 25px;
   }
 
