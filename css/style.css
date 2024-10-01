@@ -24,6 +24,8 @@
   display: none;
 }
 
+/* # MOBILE FIRST (MAX-WIDTH 576PX) */
+
 /* # MAIN */
 
 .container {
@@ -38,8 +40,12 @@
 }
 
 .logo {
-  margin-left: 10px;
+  margin-left: 8px;
   margin-top: 5px;
+}
+
+.icon-logo {
+  width: 35px;
 }
 
 .control {
@@ -121,10 +127,32 @@
 
   .home-page {
     width: 30px;
+    margin-left: 0;
   }
 
   .playlist {
     display: inline;
+  }
+
+  .title-playlist {
+    margin-left: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+  }
+
+  .fa-plus {
+    font-size: 45px;
+  }
+
+  .new-playlist {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .add-playlist {
+    margin-left: 10px;
   }
 }
 
