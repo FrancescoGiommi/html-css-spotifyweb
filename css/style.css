@@ -42,6 +42,15 @@
   margin-top: 5px;
 }
 
+.control {
+  margin-top: 10px;
+}
+
+.home-page {
+  width: 30px;
+  margin-left: 10px;
+}
+
 .main {
   height: 100%;
   width: calc(100% - 50px);
@@ -86,7 +95,7 @@
     font-size: 20px;
   }
 
-  .name-logo {
+  .logo-item {
     margin-top: 15px;
     font-size: 20px;
   }
@@ -94,6 +103,21 @@
   .d-none {
     display: inline;
     color: white;
+  }
+
+  .control {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+
+  .side-item {
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+
+  .home-page {
+    width: 30px;
   }
 }
 
@@ -107,6 +131,12 @@
   .logo {
     display: flex;
     margin-left: 85px;
+  }
+
+  .control {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 25px;
   }
 
   .main {
