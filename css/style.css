@@ -246,6 +246,11 @@
     margin-top: 25px;
   }
 
+  .row {
+    color: gray;
+    width: 250px;
+  }
+
   .main {
     width: calc(100% - 300px);
   }
