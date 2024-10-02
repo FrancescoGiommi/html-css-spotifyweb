@@ -130,8 +130,31 @@ color: gray;
 
 .current-track{
   width: calc(100%/3);
-  background-color: green;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
 }
+
+.album-cover-container{
+  margin-left: 10px;
+}
+
+
+.album-cover{
+  width: 40px;
+}
+
+.title-track{
+  color: white;
+}
+
+
+.name-track, .fa-heart, .fa-folder{
+color: #848484;
+}
+
+
 
 .player{
   width: calc(100%/3);
@@ -143,6 +166,7 @@ color: gray;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 20px;
 }
 
 .button-track{
@@ -163,6 +187,7 @@ color: gray;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-top: 15px;
 }
 
 .track-time{
@@ -328,6 +353,19 @@ color: gray;
   /* # FOOTER */
 
   /* # CONTROLLI MULTIMEDIALI */
+
+  
+.track-flex{
+  display: flex;
+    gap: 7px;
+}
+
+.icon{
+  display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
 
   .progress-bar{
     background-color: gray;
