@@ -87,13 +87,13 @@
 .main {
   height: 100%;
   width: calc(100% - 50px);
-  background-color: darkblue;
+  background-color:#141922;
 }
 
 .header {
   height: 80px;
   width: 100%;
-  background-color: rgb(10, 10, 39);
+  background-color: #080b12;
 }
 
 .main-content {
@@ -124,8 +124,58 @@ color: gray;
 
 .footer {
   height: 120px;
-  background-color: grey;
+  background-color:#282828;
+  display: flex;
 }
+
+.current-track{
+  width: calc(100%/3);
+  background-color: red;
+}
+
+.player{
+  width: calc(100%/3);
+  background-color: green;
+  
+}
+
+.buttons{
+  width: 100%;
+  height: calc(100%/2);
+  background-color: rgb(9, 102, 33);
+}
+
+.multimedia-control{
+  width: calc(100%/3);
+  background-color: blue;
+}
+
+.progress-bar-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.track-time{
+  color:#f2f2f2;
+}
+
+.progress-bar{
+  background-color: gray;
+  border: 1px solid black;
+  min-width: 120px;
+  max-width: 300px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.progress{
+  width: 30%;
+  height: 100%;
+  background-color: white;
+}
+
 
 /* # TABLET MODE */
 
