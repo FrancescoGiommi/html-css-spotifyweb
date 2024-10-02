@@ -130,19 +130,27 @@ color: gray;
 
 .current-track{
   width: calc(100%/3);
-  background-color: red;
+  background-color: green;
 }
 
 .player{
   width: calc(100%/3);
-  background-color: green;
-  
 }
 
 .buttons{
   width: 100%;
   height: calc(100%/2);
-  background-color: rgb(9, 102, 33);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button-track{
+  color:#ffffff;
+}
+
+.fa-circle-play{
+  font-size: 25px;
 }
 
 .multimedia-control{
@@ -317,9 +325,18 @@ color: gray;
   }
 
 
+  /* # FOOTER */
 
+  /* # CONTROLLI MULTIMEDIALI */
 
-
+  .progress-bar{
+    background-color: gray;
+    border: 1px solid black;
+    min-width: 185px;
+    max-width: 300px;
+    height: 5px;
+    border-radius: 5px;
+  }
 
 }
 
@@ -349,7 +366,28 @@ color: gray;
   .main {
     width: calc(100% - 300px);
   }
+
+
+  /* # FOOTER */
+
+  /* # CONTROLLI MULTIMEDIALI */
+
+  .progress-bar{
+    background-color: gray;
+    border: 1px solid black;
+    min-width: 780px;
+    max-width: 900px;
+    height: 5px;
+    border-radius: 5px;
+  }
+
+
+
 }
+
+
+
+
 
 /* # DEBUG */
 
