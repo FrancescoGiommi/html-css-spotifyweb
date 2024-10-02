@@ -12,6 +12,10 @@
   display: block;
 }
 
+.d-inline-block{
+  display: inline-block;
+}
+
 .d-inline {
   display: inline;
 }
@@ -78,6 +82,8 @@
   margin-left: 10px;
 }
 
+/* # CONTENUTO PRINCIPALE */
+
 .main {
   height: 100%;
   width: calc(100% - 50px);
@@ -91,6 +97,27 @@
 }
 
 .main-content {
+}
+
+.main-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+}
+
+.section{
+display: block;
+color: gray;
+}
+
+.recently-played{
+
+}
+
+.title-section{
+  color: white;
 }
 
 /* # FOOTER */
@@ -227,6 +254,23 @@
   .item-list {
     margin-bottom: 10px;
   }
+
+
+  /* # CONTENUTO PRINCIPALE */
+
+  .main-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 10px;
+  }
+
+
+
+
+
+
 }
 
 /* # DESKTOP MODE */
@@ -256,3 +300,25 @@
     width: calc(100% - 300px);
   }
 }
+
+/* # DEBUG */
+
+/**.debug {
+  background-color: aqua;
+  border: 1px dashed black;
+  padding: 10px;
+  color: white;
+}
+
+.debug .debug {
+  background-color: red;
+}
+
+.debug .debug .debug {
+  background-color: blueviolet;
+  color: black;
+}
+
+.debug .debug .debug .debug {
+  background-color: pink;
+}*
