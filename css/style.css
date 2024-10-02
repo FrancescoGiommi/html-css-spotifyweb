@@ -177,10 +177,16 @@ color: #848484;
   font-size: 25px;
 }
 
-.multimedia-control{
+.media-control{
   width: calc(100%/3);
-  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding-right: 10px;
 }
+
+
 
 .progress-bar-container{
   display: flex;
@@ -207,6 +213,20 @@ color: #848484;
   width: 30%;
   height: 100%;
   background-color: white;
+}
+
+.fa-bars, .fa-desktop, .fa-volume-high{
+  color: white;
+}
+
+
+.progress-bar-volume{
+  background-color: gray;
+  border: 1px solid black;
+  min-width: 65px;
+  max-width: 100px;
+  height: 5px;
+  border-radius: 5px;
 }
 
 
@@ -376,6 +396,27 @@ color: #848484;
     border-radius: 5px;
   }
 
+  .media-control{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+    margin-top: 15px;
+  }
+
+  .progress-bar-volume{
+    background-color: gray;
+    border: 1px solid black;
+    min-width: 85px;
+    max-width: 100px;
+    height: 5px;
+    border-radius: 5px;
+  }
+
+
+
 }
 
 /* # DESKTOP MODE */
@@ -419,6 +460,29 @@ color: #848484;
     border-radius: 5px;
   }
 
+
+  .progress-bar-volume{
+    background-color: gray;
+    border: 1px solid black;
+    min-width: 100px;
+    max-width: 150px;
+    height: 5px;
+    border-radius: 5px;
+  }
+
+  .media-control{
+    width: calc(100%/3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+    padding-right: 20px;
+    margin-top: 15px;
+  }
+
+  .fa-bars, .fa-desktop, .fa-volume-high{
+
+  }
 
 
 }
