@@ -99,7 +99,7 @@
   height: 80px;
   width: 100%;
   background-color: #080b12;
-  overflow: hidden;
+  overflow: none;
   position: relative;
 }
 
@@ -116,6 +116,8 @@
 
 /* # SEZIONI */
 
+
+
 .main-section{
   display: flex;
   justify-content: space-around;
@@ -124,10 +126,15 @@
   padding: 10px;
 }
 
-.section{
-display: block;
-color: gray;
+a {
+  color: grey; 
+  text-decoration: none; 
 }
+
+a:hover {
+  color: white; 
+}
+
 
 .title-section, .album{
   margin-top: 20px;
@@ -334,6 +341,10 @@ color: #848484;
     margin-top: 8px;
   }
 
+  .green-selector{
+
+  }
+
   .home-page {
     width: 30px;
     margin-left: 0;
@@ -430,6 +441,7 @@ color: #848484;
     padding: 10px;
   }
 
+  
 
   /* # FOOTER */
 
