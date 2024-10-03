@@ -12,7 +12,7 @@
   display: block;
 }
 
-.d-inline-block{
+.d-inline-block {
   display: inline-block;
 }
 
@@ -91,7 +91,7 @@
 .main {
   height: 100%;
   width: calc(100% - 50px);
-  background-color:#141922;
+  background-color: #141922;
   overflow: auto;
 }
 
@@ -103,7 +103,7 @@
   position: relative;
 }
 
-#upgrade{
+#upgrade {
   padding: 10px 30px;
   border-radius: 30px;
   background-color: black;
@@ -116,9 +116,7 @@
 
 /* # SEZIONI */
 
-
-
-.main-section{
+.main-section {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -127,54 +125,55 @@
 }
 
 a {
-  color: grey; 
-  text-decoration: none; 
+  color: grey;
+  text-decoration: none;
 }
 
 a:hover {
-  color: white; 
+  color: white;
 }
 
-
-.title-section, .album{
+.title-section,
+.album {
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.title{
+.title {
   color: white;
 }
 
-.album-container{
+.album-container {
   display: flex;
   flex-wrap: wrap;
 }
 
-.album{
- text-align: center;
- width: 230px;
-}
-
-.album-image{
+.album {
+  text-align: center;
   width: 230px;
 }
 
-.title-album{
+.album-image {
+  width: 230px;
+}
+
+.title-album {
   font-size: 20px;
   color: white;
-  text-wrap:wrap;
+  text-wrap: wrap;
 }
 
-.subtitle-album, .subtitle-section{
-  color:#75777b;
+.subtitle-album,
+.subtitle-section {
+  color: #75777b;
 }
 
-.for-you{
+.for-you {
   display: flex;
   flex-wrap: wrap;
 }
 
-.artists{
+.artists {
   border-radius: 110px;
 }
 
@@ -184,63 +183,63 @@ a:hover {
 
 .footer {
   height: 120px;
-  background-color:#282828;
+  background-color: #282828;
   display: flex;
 }
 
 /* # BRANO ATTUALE */
 
-.current-track{
-  width: calc(100%/3);
+.current-track {
+  width: calc(100% / 3);
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 15px;
 }
 
-.album-cover-container{
+.album-cover-container {
   margin-left: 10px;
 }
 
-
-.album-cover{
+.album-cover {
   width: 40px;
 }
 
-.title-track{
+.title-track {
   color: white;
 }
 
-
-.name-track, .fa-heart, .fa-folder{
-color: #848484;
+.name-track,
+.fa-heart,
+.fa-folder {
+  color: #848484;
 }
 
 /* # PLAYER BUTTON */
 
-.player{
-  width: calc(100%/3);
+.player {
+  width: calc(100% / 3);
 }
 
-.buttons{
+.buttons {
   width: 100%;
-  height: calc(100%/2);
+  height: calc(100% / 2);
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
 }
 
-.button-track{
-  color:#ffffff;
+.button-track {
+  color: #ffffff;
 }
 
-.fa-circle-play{
+.fa-circle-play {
   font-size: 25px;
 }
 
-.media-control{
-  width: calc(100%/3);
+.media-control {
+  width: calc(100% / 3);
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -250,7 +249,7 @@ color: #848484;
 
 /* # PROGRESS BAR */
 
-.progress-bar-container{
+.progress-bar-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -258,11 +257,11 @@ color: #848484;
   margin-top: 15px;
 }
 
-.track-time{
-  color:#f2f2f2;
+.track-time {
+  color: #f2f2f2;
 }
 
-.progress-bar{
+.progress-bar {
   background-color: gray;
   border: 1px solid black;
   min-width: 120px;
@@ -271,18 +270,19 @@ color: #848484;
   border-radius: 5px;
 }
 
-.progress{
+.progress {
   width: 30%;
   height: 100%;
   background-color: white;
 }
 
-.fa-bars, .fa-desktop, .fa-volume-high{
+.fa-bars,
+.fa-desktop,
+.fa-volume-high {
   color: white;
 }
 
-
-.progress-bar-volume{
+.progress-bar-volume {
   background-color: gray;
   border: 1px solid black;
   min-width: 65px;
@@ -291,18 +291,16 @@ color: #848484;
   border-radius: 5px;
 }
 
-#volume{
+#volume {
   display: flex;
   display: flex;
   align-items: center;
   gap: 5px;
 }
 
-
 /* # TABLET MODE */
 
 @media screen and (min-width: 768px) {
-  
   /* # SIDEBAR */
 
   .sidebar {
@@ -349,8 +347,7 @@ color: #848484;
     margin-top: 8px;
   }
 
-  .green-selector{
-
+  .green-selector {
   }
 
   .home-page {
@@ -390,10 +387,9 @@ color: #848484;
     margin-top: 20px;
     list-style: none;
   }
- 
+
   .list-playlist {
     margin-top: 10px;
-  
   }
   .item-list {
     margin-bottom: 10px;
@@ -437,11 +433,9 @@ color: #848484;
     margin-right: 5px;
   }
 
- 
-
   /* # CONTENUTO PRINCIPALE */
 
-  .main-section{
+  .main-section {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -449,26 +443,22 @@ color: #848484;
     padding: 10px;
   }
 
-  
-
   /* # FOOTER */
 
   /* # CONTROLLI MULTIMEDIALI */
 
-  
-  .track-flex{
+  .track-flex {
     display: flex;
-      gap: 7px;
+    gap: 7px;
   }
 
-  .icon{
+  .icon {
     display: flex;
-      gap: 15px;
-      margin-top: 15px;
+    gap: 15px;
+    margin-top: 15px;
   }
 
-
-  .progress-bar{
+  .progress-bar {
     background-color: gray;
     border: 1px solid black;
     min-width: 185px;
@@ -477,8 +467,8 @@ color: #848484;
     border-radius: 5px;
   }
 
-  .media-control{
-    width: calc(100%/3);
+  .media-control {
+    width: calc(100% / 3);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -487,7 +477,7 @@ color: #848484;
     margin-top: 15px;
   }
 
-  .progress-bar-volume{
+  .progress-bar-volume {
     background-color: gray;
     border: 1px solid black;
     min-width: 85px;
@@ -495,17 +485,13 @@ color: #848484;
     height: 5px;
     border-radius: 5px;
   }
-
-
-
 }
 
 /* # DESKTOP MODE */
 
 @media screen and (min-width: 992px) {
-  
   /* # SIDEBAR */
-  
+
   .sidebar {
     width: 300px;
   }
@@ -530,22 +516,20 @@ color: #848484;
     width: calc(100% - 300px);
   }
 
-
   /* # FOOTER */
 
   /* # CONTROLLI MULTIMEDIALI */
 
-  .progress-bar{
+  .progress-bar {
     background-color: gray;
     border: 1px solid black;
-    min-width: 750px;
+    min-width: 550px;
     max-width: 850px;
     height: 5px;
     border-radius: 5px;
   }
 
-
-  .progress-bar-volume{
+  .progress-bar-volume {
     background-color: gray;
     border: 1px solid black;
     min-width: 100px;
@@ -554,8 +538,8 @@ color: #848484;
     border-radius: 5px;
   }
 
-  .media-control{
-    width: calc(100%/3);
+  .media-control {
+    width: calc(100% / 3);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -564,41 +548,13 @@ color: #848484;
     margin-top: 15px;
   }
 
-  .buttons{
+  .buttons {
     max-width: 300px;
-    height: calc(100%/2);
+    height: calc(100% / 2);
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
     margin: auto;
   }
-
-
 }
-
-
-
-
-
-/* # DEBUG */
-
-/**.debug {
-  background-color: aqua;
-  border: 1px dashed black;
-  padding: 10px;
-  color: white;
-}
-
-.debug .debug {
-  background-color: red;
-}
-
-.debug .debug .debug {
-  background-color: blueviolet;
-  color: black;
-}
-
-.debug .debug .debug .debug {
-  background-color: pink;
-}*
