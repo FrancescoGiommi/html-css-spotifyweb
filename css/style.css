@@ -291,6 +291,13 @@ color: #848484;
   border-radius: 5px;
 }
 
+#volume{
+  display: flex;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 
 /* # TABLET MODE */
 
@@ -300,6 +307,7 @@ color: #848484;
 
   .sidebar {
     width: 200px;
+    overflow: auto;
   }
 
   .main {
@@ -377,16 +385,16 @@ color: #848484;
     margin-left: 10px;
   }
 
-  .list-playlist {
-    margin-top: 10px;
-  }
-
   .playlist-item {
     margin-left: 10px;
     margin-top: 20px;
     list-style: none;
   }
  
+  .list-playlist {
+    margin-top: 10px;
+  
+  }
   .item-list {
     margin-bottom: 10px;
   }
