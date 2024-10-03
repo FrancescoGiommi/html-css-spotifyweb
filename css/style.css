@@ -96,6 +96,18 @@
   width: 100%;
   background-color: #080b12;
   overflow: hidden;
+  position: relative;
+}
+
+#upgrade{
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .main-content {
@@ -117,6 +129,10 @@ color: gray;
 .title-section, .album{
   margin-top: 20px;
   margin-left: 20px;
+}
+
+.title-section{
+  
 }
 
 
